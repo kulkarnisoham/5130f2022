@@ -1,0 +1,7 @@
+Name: Soham Prasad Kulkarni
+Student Email ID: SohamPrasad_Kulkarni@student.uml.edu
+Student ID: 01985953
+Github ID: kulkarnisoham
+
+I am working with Akshay Kolli and Naga Sai Tejaswi Gandu in a team of 3
+We are working on the project "Efficient course permission number distribution"
