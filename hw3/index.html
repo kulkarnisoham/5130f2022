@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap-reboot.min.css">
+
+    <script src="bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+    <title>Soham Prasad Kulkarni</title>
+</head>
+<body class="bg-dark text-light">
+  <div class="text-bg-danger" id="result">
+  </div>
+    <div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Soham Prasad Kulkarni</a>
+          </div>
+        </div>
+      </nav>  
+    </div> 
+    <div class="bg bg-dark text-light text-lg-center">
+      <h1>Hello user Welcome to the website!!!! <br> Please fill in the information and Sign up.</h1>
+    </div> 
+
+    <div class="container-fluid bg-dark border-2">
+      <form id="userdata">
+        <div class="row row-cols-6">
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="firstname" class="form-control" />
+              <label class="form-label" for="firstname">First name</label>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="lastname" class="form-control" />
+              <label class="form-label" for="lastname">Last name</label>
+            </div>
+          </div>
+        </div>
+      <div class="row-cols-4">
+        <div class="form-outline col">
+          <input type="email" id="studentemail" class="form-control" />
+          <label class="form-label" for="studentemail">Student Email address ( @student.uml.edu )</label>
+        </div>
+        <div class="form-outline col">
+          <input type="text" id="studentid" class="form-control" />
+          <label class="form-label" for="studentid">Student Id </label>
+        </div>
+        <div class="form-outline col">
+          <input type="text" id="userlocation" class="form-control" size="50">
+          <label class="form-label" for="userlocation">City</label>
+        </div>
+      </div>
+      
+        <button type="submit" class="btn btn-success btn-block mb-4">Sign up</button>
+      
+    
+      </form>
+      <div>
+        <button type="submit" class="btn btn-danger btn-block mb-4" id="showusers" onclick="getData()">Show User Data From Firebase Database</button>
+        <p>Click the button and check the console for the data retived from the firebase database</p>
+      </div>
+    </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+</script><script src="main.js"></script>
+
+</html>
